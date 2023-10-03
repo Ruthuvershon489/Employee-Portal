@@ -1,0 +1,173 @@
+body {
+  background-image: url("https://img.wallpapersafari.com/desktop/1600/900/22/71/jIWVNu.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.profile {
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 100px;
+  width: 200px;
+  margin-top: 300px;
+  margin-left: 300px;
+  padding: 0;
+  transition: all 0.5s;
+  cursor: pointer;  
+
+}
+
+.profile span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.profile span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.profile:hover span {
+  padding-right: 25px;
+}
+
+.profile:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+///////////////////////////////////////////////////////////////////////////////////////
+
+.payslip {
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 100px;
+  width: 200px;
+  margin-top: 300px;
+  margin-left: 100px;
+  padding: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.payslip span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.payslip span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.payslip:hover span {
+  padding-right: 25px;
+}
+
+.payslip:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+.payslip-pdf {
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 100px;
+  width: 200px;
+  margin-top: 80px;
+  margin-left: 800px;
+  padding: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.payslip-pdf span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.payslip-pdf span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.payslip-pdf:hover span {
+  padding-right: 25px;
+}
+
+.payslip-pdf:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+//////////////////////////////////////////////////////////////////////////////
+
+.leave-request {
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 100px;
+  width: 200px;
+  margin-top: 80px;
+  margin-left: 100px;
+  padding: 0;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.leave-request span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.leave-request span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.leave-request:hover span {
+  padding-right: 25px;
+}
+
+.leave-request:hover span:after {
+  opacity: 1;
+  right: 0;
+}

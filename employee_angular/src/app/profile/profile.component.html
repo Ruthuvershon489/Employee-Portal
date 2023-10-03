@@ -1,0 +1,400 @@
+<body><article class="cssui-usercard">
+	<div class="cssui-usercard__body">
+		<header class="cssui-usercard__header">
+			<img src="https://cdn3.iconfinder.com/data/icons/human-resource-management/500/human8-1024.png" class="cssui-usercard__avatar" alt="Avatar">
+			<div class="cssui-usercard__header-info">
+				<h3><span class="cssui-usercard__name-label">{{emp_prof_formatted_name_of_emp}} </span></h3>
+				<span class="cssui-usercard__post">Employee Profile</span>
+			</div>
+		</header>
+		<div class="cssui-usercard__content">
+			<div class="cssui-slider">
+
+				<!-- the control elements of slider -->
+
+				<input id="slide1" type="radio" class="cssui-slider__switch cssui-usercard__switch" name="slider-controls" checked autofocus>
+				<label for="slide1" class="cssui-slider__control cssui-usercard__control"></label>
+				<input id="slide2" type="radio" class="cssui-slider__switch cssui-usercard__switch" name="slider-controls">
+				<label for="slide2" class="cssui-slider__control cssui-usercard__control"></label>
+				<input id="slide3" type="radio" class="cssui-slider__switch cssui-usercard__switch" name="slider-controls">
+				<label for="slide3" class="cssui-slider__control cssui-usercard__control"></label>
+
+				<div class="cssui-slider__slides">
+
+					<!-- first slide -->
+
+					<div class="cssui-slider__slide">
+						<div class="cssui-usercard__stats">
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-earth"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">PERSONNEL NUMBER</span>
+									<span class="cssui-stats__value">{{emp_prof_personnel_num}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-location"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">START DATE</span>
+									<span class="cssui-stats__value">{{emp_prof_start_date}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-location"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">END DATE</span>
+									<span class="cssui-stats__value">{{emp_prof_end_date}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-calendar"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">STATUS</span>
+									<span class="cssui-stats__value">{{emp_prof_status}}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- second slide -->
+
+					<div class="cssui-slider__slide">
+						<div class="cssui-usercard__stats">
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-man-woman"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">PERSONNEL AREA</span>
+									<span class="cssui-stats__value">{{emp_prof_personnel_area}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-vue"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">EMPLOYEE GROUP</span>
+									<span class="cssui-stats__value">{{emp_prof_emp_grp}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-angular"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">ORGANIZATIONAL UNIT</span>
+									<span class="cssui-stats__value">{{emp_prof_org_unit}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-angular"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">OBJECT NAME</span>
+									<span class="cssui-stats__value">{{emp_prof_obj_name}}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Third slide -->
+
+					<div class="cssui-slider__slide">
+						<div class="cssui-usercard__stats">
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-earth"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">CITY</span>
+									<span class="cssui-stats__value">{{emp_prof_city}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-location"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">STREET</span>
+									<span class="cssui-stats__value">{{emp_prof_street}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-location"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">COUNTRY KEY</span>
+									<span class="cssui-stats__value">{{emp_prof_country_key}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-calendar"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">TELEPHONE</span>
+									<span class="cssui-stats__value">{{emp_prof_telephone}}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="cssui-usercard__footer">
+	</footer>
+</article>
+
+
+	<br>
+
+	<article class="cssui-usercard">
+	<div class="cssui-usercard__body">
+		<header class="cssui-usercard__header">
+			<img src="https://cdn3.iconfinder.com/data/icons/human-resource-management/500/human8-1024.png" class="cssui-usercard__avatar" alt="Avatar">
+			<div class="cssui-usercard__header-info">
+				<h3><span class="cssui-usercard__name-label">Company Profile</span></h3>
+				<!-- <span class="cssui-usercard__post">Employee Profile</span> -->
+			</div>
+		</header>
+		<div class="cssui-usercard__content">
+			<div class="cssui-slider">
+
+				<div class="cssui-slider__slides">
+					
+					<!-- first slide -->
+
+					<div class="cssui-slider__slide">
+						<div class="cssui-usercard__stats">
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-earth"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">COMPANY CODE</span>
+									<span class="cssui-stats__value">{{company_comp_code}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-location"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">COMPANY NAME</span>
+									<span class="cssui-stats__value">{{company_comp_name}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-location"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name"> CITY</span>
+									<span class="cssui-stats__value">{{company_city}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-calendar"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">COUNTRY</span>
+									<span class="cssui-stats__value">{{company_country}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-angular"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name"> CHART OF ACCOUNTS</span>
+									<span class="cssui-stats__value">{{company_chart_of_acc}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-angular"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name"> FINANCIAL YEAR VARIANT</span>
+									<span class="cssui-stats__value">{{company_financial_year_variant}}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- second slide -->
+
+					<div class="cssui-slider__slide">
+						<div class="cssui-usercard__stats">
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-man-woman"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name"> CURRENCY</span>
+									<span class="cssui-stats__value">{{company_currency}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-vue"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name"> LANGUAGE</span>
+									<span class="cssui-stats__value">{{company_lang}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-angular"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name"> CHART OF ACCOUNTS</span>
+									<span class="cssui-stats__value">{{company_chart_of_acc}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-angular"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name"> FINANCIAL YEAR VARIANT</span>
+									<span class="cssui-stats__value">{{company_financial_year_variant}}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Third slide -->
+
+					<div class="cssui-slider__slide">
+						<div class="cssui-usercard__stats">
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-earth"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">COUNTRY ISO</span>
+									<span class="cssui-stats__value">{{company_country_iso}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-location"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name">CURRENCY ISO</span>
+									<span class="cssui-stats__value">{{company_currency_iso}}</span>
+								</div>
+							</div>
+							<div class="cssui-stats cssui-usercard__stats-item">
+								<i class="cssui-icon icon-location"></i>
+								<div class="cssui-stats__info cssui-usercard__stats-info">
+									<span class="cssui-stats__name cssui-usercard__stats-name"> LANGUAGE ISO</span>
+									<span class="cssui-stats__value">{{company_lang_iso}}</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="cssui-usercard__footer"></footer>
+</article>
+</body>
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+	<body>
+		<br>
+		<h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: blanchedalmond; align-items: center;">EMPLOYEE PROFILE</h1> <br>
+		<table id="users">
+			<tr>
+				<th>PERSONNEL NUMBER</th>
+				<td>{{emp_prof_personnel_num}}</td>
+			</tr>
+			<tr>
+				<th>OBJECT TYPE</th>
+				<td>{{emp_prof_object_type}}</td>
+			</tr>
+			<tr>
+				<th>START_DATE</th>
+				<td>{{emp_prof_start_date}}</td>
+			</tr>
+			<tr>
+				<th>END DATE</th>
+				<td>{{emp_prof_end_date}}</td>
+			</tr>
+			<tr>
+				<th>STATUS</th>
+				<td>{{emp_prof_status}}</td>
+			</tr>
+			<tr>
+				<th>PERSONNEL AREA</th>
+				<td>{{emp_prof_personnel_area}}</td>
+			</tr>
+			<tr>
+				<th>EMPLOYEE GROUP</th>
+				<td>{{emp_prof_emp_grp}}</td>
+			</tr>
+			<tr>
+				<th>ORGANIZATIONAL UNIT</th>
+				<td>{{emp_prof_org_unit}}</td>
+			</tr>
+			<tr>
+				<th>OBJECT NAME</th>
+				<td>{{emp_prof_obj_name}}</td>
+			</tr>
+			<tr>
+				<th>OBJECT ID</th>
+				<td>{{emp_prof_obj_id}}</td>
+			</tr>
+			<tr>
+				<th>FORMATTED NAME OF EMPLOYEE</th>
+				<td>{{emp_prof_formatted_name_of_emp}}</td>
+			</tr>
+			<tr>
+				<th>LAST NMAE</th>
+				<td>{{emp_prof_last_name}}</td>
+			</tr>
+			<tr>
+				<th>FIRST NAME</th>
+				<td>{{emp_prof_first_name}}</td>
+			</tr>
+			<tr>
+				<th>CITY</th>
+				<td>{{emp_prof_city}}</td>
+			</tr>
+			<tr>
+				<th>STREET</th>
+				<td>{{emp_prof_street}}</td>
+			</tr>
+			<tr>
+				<th>COUNTRY KEY</th>
+				<td>{{emp_prof_country_key}}</td>
+			</tr>
+			<tr>
+				<th>TELEPHONE</th>
+				<td>{{emp_prof_telephone}}</td>
+			</tr>
+		</table>
+
+		<br><br>
+		<h1 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; background-color: blanchedalmond; align-items: center;">COMPANY</h1>
+		<br>
+		<table id="users">
+			<tr>
+				<th>COMPANY CODE</th>
+				<td>{{company_comp_code}}</td>
+			</tr>
+			<tr>
+				<th>COMPANY NAME</th>
+				<td>{{company_comp_name}}</td>
+			</tr>
+			<tr>
+				<th>CITY</th>
+				<td>{{company_city}}</td>
+			</tr>
+			<tr>
+				<th>COUNTRY</th>
+				<td>{{company_country}}</td>
+			</tr>
+			<tr>
+				<th>CURRENCY</th>
+				<td>{{company_currency}}</td>
+			</tr>
+			<tr>
+				<th>LANGUAGE</th>
+				<td>{{company_lang}}</td>
+			</tr>
+			<tr>
+				<th>CHART OF ACCOUNTS</th>
+				<td>{{company_chart_of_acc}}</td>
+			</tr>
+			<tr>
+				<th>FINANCIAL YEAR VARIANT</th>
+				<td>{{company_financial_year_variant}}</td>
+			</tr>
+			<tr>
+				<th>COUNTRY ISO</th>
+				<td>{{company_country_iso}}</td>
+			</tr>
+			<tr>
+				<th>CURRENCY ISO</th>
+				<td>{{company_currency_iso}}</td>
+			</tr>
+			<tr>
+				<th>LANGUAGE ISO</th>
+				<td>{{company_lang_iso}}</td>
+			</tr>
+		</table>
+	</body>
+</html> -->

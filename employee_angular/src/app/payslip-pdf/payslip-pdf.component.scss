@@ -1,0 +1,41 @@
+body {
+
+    background-image: url("https://img.wallpapersafari.com/desktop/1600/900/22/71/jIWVNu.jpg");
+  
+    
+    
+  }
+    h1
+  {
+      text-align: center;
+      color: blueviolet;
+  }
+  
+  #users {
+      font-family:'Times New Roman', Times, serif;
+      border-collapse:collapse;
+      width: 100%;
+    }
+    
+    #users td, #users th {
+      width: 80%;
+      border: 1px solid #ddd;
+      padding: 8px;
+    }
+    
+    #users tr:nth-child(even){background-color:bisque;}
+    #users tr:nth-child(odd){background-color:bisque;}
+    
+    #users tr:hover {
+      overflow: hidden;
+      background-color: #ddd;}
+    
+    #users th {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      text-align: left;
+      font-style: italic;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+      background-color:rgb(59, 59, 113);
+      color: rgb(0, 0, 0);
+    }
